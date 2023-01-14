@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=;700& &display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header_top">
+        <a class="logo header_logo" href="#">
+          <img src="img/logo.png" alt="">
+          <p class="logo_text">ЖИЛОЙ КОМПЛЕКС</p>
+        </a>
+        <menu class="menu header_menu">
+          <li class="header_menu_li"> <a href="#">О комплексе</a></li>
+          <li class="header_menu_li"> <a href="#">Район</a></li>
+          <li class="header_menu_li"> <a href="#">Каталог квартир</a></li>
+          <li class="header_menu_li"> <a href="#">Ипотека</a></li>
+          <li class="header_menu_li"> <a href="#">Контакты</a></li>
+        </menu>
+      </div>
+      <h3 class="header_title">Жилой комплекс
+        в историческом центре</h3>
+        <img class="header_icon" src="img/icon.svg" alt="">
+      </div>
+      <div class="header_bottom">
+        <a class="header_adrss" href="#">
+          <img src="img/adress.svg" alt="">
+          <p> Наб. реки Фонтанки 10-15</p>
+        </a>
+        <a class="header_tel" href="tel:8812)1234567">
+          <img src="img/tel.svg" alt="">
+          <p>8 (812) 123-45-67</p>
+        </a>
+      </div>
+    </header>
+    <main class="main">
+      <section class="plus">
+        <div class="container">
+          <ul class="plus_inner">
+            <li class="plus_li">
+              <img class="plus_img" src="img/plus1.svg" alt="">
+              <p class="plus_text">Рядом исторические
+                парки и скверы</p>
+              </li>
+              <li class="plus_li">
+                <img class="plus_img" src="img/plus2.svg" alt="">
+                <p class="plus_text">Полностью
+                  обустроенный</p>
+                </li>
+                <li class="plus_li">
+                  <img class="plus_img" src="img/plus3.svg" alt="">
+                  <p class="plus_text">10 фонтанов
+                    на территории</p>
+                  </li>
+                  <li class="plus_li">
+                    <img class="plus_img" src="img/plus4.svg" alt="">
+                    <p class="plus_text">6 км
+                      велодорожек</p>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              <section class="kvartir">
+                <div class="container">
+                  <h3 class="kvartir_title">Наши квартиры </h3>
+                  <div class="blog_slider swiper">
+                    <!-- <div class="swiper-wrapper"> -->
+                    <ul class="kvartir_ul swiper-wrapper">
+                      <a class="swiper-slide kvartir_link loft2" href="#"><p class="kvartir_texts">Просмотр — квартиры 1</p></a>
+                      <a class="swiper-slide kvartir_link loft1" href="#"><p class="kvartir_texts">Просмотр — квартиры 2</p></a>
+                      <a class="swiper-slide kvartir_link loft3" href="#"><p class="kvartir_texts">Просмотр — квартиры 3</p></a>
+                      <a class="swiper-slide kvartir_link loft4" href="#"><p class="kvartir_texts">Просмотр — квартиры 4</p></a>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </section>
+              <section class="planKvartir">
+                <div class="container">
+                  <h3 class="planKvartir_title">Планировки квартир</h3>
+                    <ul class="planKvartir_inner">
+                      <li class="planKvartir_inner_link st st_active">Студии</li>
+                      <li class="planKvartir_inner_link odin_k">Однокомнатные</li>
+                      <li class="planKvartir_inner_link two_k">Двухкомнатные</li>
+                      <li class="planKvartir_inner_link three_k">Трехкомнатные</li>
+                      <!-- <li class="planKvartir_link">
+                        <h4 class="planKvartir_inner_title">Студии</h4>
+                        <div class="planKvartir_inner_imgs">
+                          <img src="img/stydiy.jpg" alt="">
+                          <img src="img/stydiy1.jpg" alt="">
+                        </div>
+                        <button class="planKvartir_inner_btn btn" type="button" name="button">Запросить цены</button>
+                      </li>
+                      <li class="planKvartir_link">
+                        <h4 class="planKvartir_inner_title">Однокомнатные</h4>
+                        <div class="planKvartir_inner_imgs">
+                          <img src="img/odnokom.jpg" alt="">
+                          <img src="img/odnokom1.jpg" alt="">
+                        </div>
+                        <button class="planKvartir_inner_btn btn" type="button" name="button">Запросить цены</button>
+                      </li>
+                      <li class="planKvartir_link">
+                        <h4 class="planKvartir_inner_title">Двухкомнатные</h4>
+                        <div class="planKvartir_inner_imgs">
+                          <img src="img/dbyxkom.jpg" alt="">
+                          <img src="img/dbyxkom1.jpg" alt="">
+                        </div>
+                        <button class="planKvartir_inner_btn btn" type="button" name="button">Запросить цены</button>
+                      </li>
+                      <li class="planKvartir_link">
+                        <h4 class="planKvartir_inner_title">Трехкомнатные</h4>
+                        <div class="planKvartir_inner_imgs">
+                          <img src="img/trexkomn.jpg" alt="">
+                          <img src="img/trexkomn1.jpg" alt="">
+                        </div>
+                        <button class="planKvartir_inner_btn btn" type="button" name="button">Запросить цены</button>
+                      </li> -->
+                    </ul>
+                    <div class="planKvartir_link st_block st_block_active">
+                      <div class="planKvartir_inner_imgs">
+                        <img src="img/stydiy.jpg" alt="">
+                        <img src="img/stydiy1.jpg" alt="">
+                      </div>
+                      <button class="planKvartir_inner_btn btn" type="button" name="button">Запросить цены</button>
+                    </div>
+
+                    <div class="planKvartir_link  odin_k_block">
+                      <div class="planKvartir_inner_imgs">
+                        <img src="img/odnokom.jpg" alt="">
+                        <img src="img/odnokom1.jpg" alt="">
+                      </div>
+                      <button class="planKvartir_inner_btn btn" type="button" name="button">Запросить цены</button>
+                    </div>
+
+                    <div class="planKvartir_link two_k_block">
+                      <div class="planKvartir_inner_imgs">
+                        <img src="img/dbyxkom.jpg" alt="">
+                        <img src="img/dbyxkom1.jpg" alt="">
+                      </div>
+                      <button class="planKvartir_inner_btn btn" type="button" name="button">Запросить цены</button>
+                    </div>
+
+                    <div class="planKvartir_link three_k_block">
+                      <div class="planKvartir_inner_imgs">
+                        <img src="img/trexkomn.jpg" alt="">
+                        <img src="img/trexkomn1.jpg" alt="">
+                      </div>
+                      <button class="planKvartir_inner_btn btn" type="button" name="button">Запросить цены</button>
+                    </div>
+                </div>
+              </section>
+              <section class="watch">
+                <div class="container">
+                  <h3 class="watch_title">Хотите посмотреть?</h3>
+                  <div class="watch_inner">
+                    <p class="watch_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </p>
+                    <form class="watch_form" action="index.html" method="post">
+                      <input class="watch_input" type="text" placeholder="Ваше имя">
+                      <input class="watch_input" type="text" placeholder="Ваш телефон">
+                      <p class="watch_form_TEXT">*Мы никому не передаем ваши данные.
+                        И не сохраняем ваш номер в базу.</p>
+                        <button class="watch_btn btn" type="button" name="button">Посмотреть район</button>
+                      </form>
+                    </div>
+                  </div>
+                </section>
+                <div class="video">
+                  <a class="video_link" href="#">
+                    <img class="video_img" src="img/play.svg" alt="">
+                  </a>
+                </div>
+                <section class="map">
+                  <div class="container">
+                    <h3 class="map_title">Район на карте</h3>
+                    <div id="map">
+
+                    </div>
+                  </div>
+                </section>
+                <section class="question">
+                  <div class="container">
+                    <h3 class="question_titile">Есть вопросы?</h3>
+                    <form class="watch_form question_form" action="index.html" method="post">
+                      <p class="watch_form_TEXT question_form_text">*Мы никому не передаем ваши данные.
+                        И не сохраняем ваш номер в базу.</p>
+                        <input class="watch_input question_input" type="text" placeholder="Ваше имя">
+                        <input class="watch_input question_input" type="text" placeholder="Ваш телефон">
+                        <button class="watch_btn btn" type="button" name="button">Посмотреть район</button>
+                      </form>
+                    </div>
+                  </section>
+                </main>
+                <footer class="footer">
+                  <div class="container">
+                    <div class="footer_inner">
+                      <a class="logo header_logo" href="#">
+                        <img src="img/logo.png" alt="">
+                        <p class="logo_text">ЖИЛОЙ КОМПЛЕКС</p>
+                      </a>
+                      <ul class="footer_carta">
+                        <li class="footer_link"><a href="#"></a>О комплексе</li>
+                        <li class="footer_link"><a href="#"></a>Район</li>
+                        <li class="footer_link"><a href="#"></a>Каталог квартир</li>
+                        <li class="footer_link"><a href="#">Ипотека</a></li>
+                        <li class="footer_link"><a href="#">Контакты</a></li>
+                      </ul>
+                      <ul class="footer_contact">
+                        <a class="header_adrss" href="#">
+                          <img src="img/adress.svg" alt="">
+                          <p> Наб. реки Фонтанки 10-15</p>
+                        </a>
+                        <a class="header_tel" href="tel:8812)1234567">
+                          <img src="img/tel.svg" alt="">
+                          <p>8 (812) 123-45-67</p>
+                        </a>
+                        <p class="footer_contact_time">Отдел продаж: 10:00 - 20:00</p>
+                        <a class="footer_mails" href="mailto: vip@housevip.ru">E-mail:<span>vip@housevip.ru</span> </a>
+                        <ul class="footer_contact_cety">
+                          <li class="footer_contact_link"><a href="#"></a><img src="img/youtube.svg" alt=""> </li>
+                          <li class="footer_contact_link"><a href="#"></a><img src="img/vk.svg" alt=""> </li>
+                          <li class="footer_contact_link"><a href="#"></a><img src="img/facebook.svg" alt=""> </li>
+                          <li class="footer_contact_link"><a href="#"></a><img src="img/instagram.svg" alt=""> </li>
+                        </ul>
+                      </ul>
+
+                    </div>
+                  </div>
+                </footer>
+                <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+                defer
+                ></script>
+                <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script src="js/slick.min.js"></script>
+                <script src="js/jquery.fancybox.min.js"></script>
+                <script src="js/main.js"></script>
+              </body>
+              </html>
